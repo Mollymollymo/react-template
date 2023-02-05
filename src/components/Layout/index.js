@@ -11,7 +11,7 @@ const Layout =(props) =>{
             <FullPageLoader/>
             <Footer/>
             <main>
-                <div className="content w-screen flex justify-center items-center">{children}</div>
+                <div className="content w-screen justify-center items-center">{children}</div>
             </main>
         </div>
         
